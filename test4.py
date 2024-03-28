@@ -1,6 +1,6 @@
 from datetime import datetime
 
-
+#กรอกวันที่ในรูปแบบ yyyymmdd ปีเดือนวัน
 date_x = datetime.strptime(input('กรอกวันที่ X รูปแบบ yyyymmdd: '),'%Y%m%d')
 date_y = datetime.strptime(input('กรอกวันที่ Y รูปแบบ yyyymmdd: '),'%Y%m%d')
 date_m = datetime.strptime(input('กรอกวันที่ M รูปแบบ yyyymmdd: '),'%Y%m%d')

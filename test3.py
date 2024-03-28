@@ -1,5 +1,4 @@
-array = ['Caat', 'Dog', 'Bat',"A"]
-arrays = input("กรอกข้อมูลArray: รูปแบบ aaa bbb ccc:  ")
+arrays = input("กรอกข้อมูลArray รูปแบบ aaa bbb ccc:  ")#เว้นวรรคเพื่อขึ้นคำใหม่
 new_arrays = arrays.split(' ')
 
 x = input('กรอกตัวที่ต้องการค้นหา : ')
